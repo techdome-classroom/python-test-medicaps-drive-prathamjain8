@@ -9,7 +9,6 @@ class Solution(object):
         stack = []
         
         for char in s:
-    
             if char in bracket_map.values():
                 stack.append(char)
             # If the character is a closing bracket
