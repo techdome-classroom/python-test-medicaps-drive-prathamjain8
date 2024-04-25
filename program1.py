@@ -4,9 +4,8 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        
+
         bracket_map = {')': '(', '}': '{', ']': '['}
-        # Initialize an empty stack
         stack = []
         
         # Iterate through each character in the input string
