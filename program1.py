@@ -14,7 +14,6 @@ class Solution(object):
             elif char in bracket_map:
                 if not stack or stack[-1] != bracket_map[char]:
                     return False
-                # Pop the top element from the stack
                 stack.pop()
             # If the character is neither an opening nor a closing bracket, skip it
             else:
