@@ -29,9 +29,3 @@ class Solution(object):
                 result += roman_values[s[i]]
         
         return result
-
-# Test cases
-solution = Solution()
-print(solution.romanToInt("III"))     # Output: 3
-print(solution.romanToInt("LVIII"))   # Output: 58
-print(solution.romanToInt("MCMXCIV")) # Output: 1994
