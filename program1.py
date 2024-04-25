@@ -18,4 +18,4 @@ class Solution(object):
             else:
                 continue
         
-        return not stack
+        return len(stack) == 0
