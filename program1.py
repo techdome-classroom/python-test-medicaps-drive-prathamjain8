@@ -4,7 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        # Create a dictionary to store the mapping of open and close brackets
+        
         bracket_map = {')': '(', '}': '{', ']': '['}
         # Initialize an empty stack
         stack = []
