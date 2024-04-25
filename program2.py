@@ -14,7 +14,6 @@ class Solution(object):
             'M': 1000
         }
         
-        # Initialize the result variable
         result = 0
         
         # Iterate through the Roman numeral string
