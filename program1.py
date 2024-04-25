@@ -11,7 +11,6 @@ class Solution(object):
         for char in s:
             if char in bracket_map.values():
                 stack.append(char)
-            # If the character is a closing bracket
             elif char in bracket_map:
                 # If the stack is empty or the top element of the stack does not match the corresponding opening bracket, return False
                 if not stack or stack[-1] != bracket_map[char]:
