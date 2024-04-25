@@ -17,7 +17,6 @@ class Solution(object):
         result = 0
         
         for i in range(len(s)):
-            # If the current value is less than the next value, it indicates subtraction
             if i < len(s) - 1 and roman_values[s[i]] < roman_values[s[i + 1]]:
                 # Subtract the current value from the result
                 result -= roman_values[s[i]]
