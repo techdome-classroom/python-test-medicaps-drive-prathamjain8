@@ -20,7 +20,6 @@ class Solution(object):
             if i < len(s) - 1 and roman_values[s[i]] < roman_values[s[i + 1]]:
                 result -= roman_values[s[i]]
             else:
-                # Otherwise, add the current value to the result
                 result += roman_values[s[i]]
         
         return result
