@@ -18,5 +18,4 @@ class Solution(object):
             else:
                 continue
         
-        # After iterating through all characters, if the stack is empty, return True (all brackets are valid)
         return not stack
