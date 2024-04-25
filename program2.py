@@ -4,7 +4,6 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        # Create a dictionary to store the values of each Roman symbol
         roman_values = {
             'I': 1,
             'V': 5,
