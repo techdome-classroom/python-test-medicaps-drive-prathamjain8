@@ -8,7 +8,6 @@ class Solution(object):
         bracket_map = {')': '(', '}': '{', ']': '['}
         stack = []
         
-        # Iterate through each character in the input string
         for char in s:
             # If the character is an opening bracket, push it onto the stack
             if char in bracket_map.values():
