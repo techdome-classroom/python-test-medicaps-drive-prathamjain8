@@ -15,7 +15,6 @@ class Solution(object):
                 if not stack or stack[-1] != bracket_map[char]:
                     return False
                 stack.pop()
-            # If the character is neither an opening nor a closing bracket, skip it
             else:
                 continue
         
