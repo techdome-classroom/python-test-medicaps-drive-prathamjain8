@@ -12,7 +12,6 @@ class Solution(object):
             if char in bracket_map.values():
                 stack.append(char)
             elif char in bracket_map:
-                # If the stack is empty or the top element of the stack does not match the corresponding opening bracket, return False
                 if not stack or stack[-1] != bracket_map[char]:
                     return False
                 # Pop the top element from the stack
